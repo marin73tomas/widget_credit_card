@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Widget Credit Card
-Plugin URI: github.com/marintomas
+Plugin URI: https://github.com/marin73tomas/
 Description: Test plugin card
 Version: 1.1.0
 Author: Tomas
