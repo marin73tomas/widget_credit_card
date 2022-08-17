@@ -21,7 +21,7 @@ class CustomWidget extends WP_Widget
 
     function CustomWidget()
     {
-        // Constructor del Widget.
+        // Widget Builder.
         $widget_ops = array(
             'classname' => 'container_widget',
             'description' => "Widget credit card"
@@ -31,7 +31,7 @@ class CustomWidget extends WP_Widget
 
     function widget($args, $instance)
     {
-        // Contenido del Widget que se mostrará en la Sidebar
+        // Content of the Widget to be displayed in the Sidebar
         echo $before_widget;
         $creditCardData = self::getCreditData($instance["credit_id"]);
         $imageSrc = self::getCreditImage($instance["credit_id"]);
